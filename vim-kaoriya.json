@@ -32,18 +32,73 @@
         }
     },
     "bin": [
+	"vim.exe",
+        [
+            "vim.exe",
+            "vi"
+        ],
+        [
+            "vim.exe",
+            "ex",
+            "-e"
+        ],
+        [
+            "vim.exe",
+            "view",
+            "-R"
+        ],
+        [
+            "vim.exe",
+            "rvim",
+            "-Z"
+        ],
+        [
+            "vim.exe",
+            "rview",
+            "-RZ"
+        ],
+        [
+            "vim.exe",
+            "vimdiff",
+            "-d"
+        ],
         "gvim.exe",
-        "luajit.exe",
-        "tee.exe",
-        "vim.exe",
-        "vimrun.exe",
-        "winpty-agent.exe",
+        [
+            "gvim.exe",
+            "gview",
+            "-R"
+        ],
+        [
+            "gvim.exe",
+            "evim",
+            "-y"
+        ],
+        [
+            "gvim.exe",
+            "eview",
+            "-Ry"
+        ],
+        [
+            "gvim.exe",
+            "rgvim",
+            "-Z"
+        ],
+        [
+            "gvim.exe",
+            "rgview",
+            "-RZ"
+        ],
+        [
+            "gvim.exe",
+            "gvimdiff",
+            "-d"
+        ],
         "xxd.exe"
     ],
     "shortcuts": [
         [
             "gvim.exe",
-            "Gvim"
+            "gVim"
         ]
     ]
 }
