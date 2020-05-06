@@ -32,8 +32,13 @@
         }
     },
     "bin": [
+        "gvim.exe",
+        "luajit.exe",
+        "tee.exe",
         "vim.exe",
-        "gvim.exe"
+        "vimrun.exe",
+        "winpty-agent.exe",
+        "xxd.exe"
     ],
     "shortcuts": [
         [
