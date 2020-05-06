@@ -32,26 +32,8 @@
         }
     },
     "bin": [
-        [
-            "vim.exe",
-            "vim",
-            ""
-        ],
-        [
-            "vim.exe",
-            "vimk",
-            ""
-        ],
-        [
-            "gvim.exe",
-            "gvim",
-            ""
-        ],
-        [
-            "gvim.exe",
-            "gvimk",
-            ""
-        ]
+        "vim.exe",
+        "gvim.exe"
     ],
     "shortcuts": [
         [
