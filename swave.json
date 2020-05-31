@@ -16,10 +16,6 @@
         [
             "SWave.exe",
             "SWave"
-        ],
-        [
-            "SWAVE.hlp",
-            "Swave Help"
         ]
     ]
 }

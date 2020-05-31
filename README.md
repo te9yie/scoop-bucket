@@ -6,4 +6,6 @@
 
 ## update
 
-> ./scoop/bin/checkver.ps1 -dir . * -u
+```
+> .\scoop\bin\checkver.ps1 -dir . * -u
+```
