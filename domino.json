@@ -1,0 +1,21 @@
+{
+    "homepage": "http://takabosoft.com/domino",
+    "description": "MIDI Sequencer",
+    "version": "1.29b",
+    "url": "https://takabosoft.com/download/win/domino/Domino144.zip",
+    "hash": "b9dc8e51f748f4cf6888e008e85f102311dc2789d49e6cb70c62284eb32b046e",
+    "checkver": {
+        "url": "http://takabosoft.com/domino",
+        "re": "Domino Ver\\.(?<version>[\\d]+\\.[\\d]+\\w?)"
+    },
+    "autoupdate": {
+        "url": "http://takabosoft.com/download/win/domino/domino$majorVersion$minorVersion.zip"
+    },
+    "bin": "Domino.exe",
+    "shortcuts": [
+        [
+            "Domino.exe",
+            "Domino"
+        ]
+    ]
+}
